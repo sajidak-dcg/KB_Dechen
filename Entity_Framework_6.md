@@ -1,9 +1,9 @@
 ##EF6 Detach & Attach:
 https://msdn.microsoft.com/en-us/library/bb896271%28v=vs.100%29.aspx
-	System.Data.Objects.ObjectContext.Detach(System.Object) 
-
-System.Data.Objects.ObjectContext.Detach(Object entity)
-System.Data.Objects.ObjectSet<TEntity>.Detach(TEntity entity)
+	
+* System.Data.Objects.ObjectContext.Detach(System.Object) 
+* System.Data.Objects.ObjectContext.Detach(Object entity)
+* System.Data.Objects.ObjectSet<TEntity>.Detach(TEntity entity)
 
 ###EF6 Detach recursively:
 http://www.codemag.com/article/0907071
@@ -14,12 +14,12 @@ Assembly:  System.Web.Entity (in System.Web.Entity.dll)
 https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.entitydatasource%28v=vs.110%29.aspx
 
 ###Validate:
-public event EventHandler<EntityDataSourceChangingEventArgs> Inserting
-public event EventHandler<EntityDataSourceChangingEventArgs> Updating
+* public event EventHandler<EntityDataSourceChangingEventArgs> Inserting
+* public event EventHandler<EntityDataSourceChangingEventArgs> Updating
 
 ###Status:
-public event EventHandler<EntityDataSourceChangedEventArgs> Inserted
-public event EventHandler<EntityDataSourceChangedEventArgs> Updated
+* public event EventHandler<EntityDataSourceChangedEventArgs> Inserted
+* public event EventHandler<EntityDataSourceChangedEventArgs> Updated
 
 ###EntityDataSourceChangingEventArgs Class
 https://msdn.microsoft.com/en-us/library/system.web.ui.webcontrols.entitydatasourcechangingeventargs%28v=vs.110%29.aspx
